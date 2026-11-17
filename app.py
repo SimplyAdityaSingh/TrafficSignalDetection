@@ -528,9 +528,5 @@ if __name__ == "__main__":
 #                     unique_classes = len(set(results.boxes.cls.cpu().numpy())) if len(results.boxes) > 0 else 0
 #                     st.metric("Unique Sign Types", unique_classes)
 
-#     # Footer
-#     st.markdown("---")
-#     st.markdown("Made with ❤️ using YOLOv8 and Streamlit")
-
 # if __name__ == "__main__":
 #     main()
